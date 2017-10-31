@@ -1,6 +1,6 @@
 import java.util.*;
 
 public class TrieNode {
-	HashMap<Character, TreeNode> child;
+	HashMap<Character, TrieNode> child;
 	boolean isCompleteWord;
 }
